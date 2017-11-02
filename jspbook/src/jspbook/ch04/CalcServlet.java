@@ -1,4 +1,4 @@
-package jsbook.ch04;
+package jspbook.ch04;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -43,7 +43,7 @@ public class CalcServlet extends HttpServlet {
 		result= calc(num1, num2, op);
 		
 		out.println("<html>");
-		out.println("<head><title>계산기</title></head>");
+		out.println("<head><title>계산�?</title></head>");
 		out.println("<body><center>");
 		out.println("<h2>계산결과</h2>");
 		out.println("<hr>");

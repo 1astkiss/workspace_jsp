@@ -1,4 +1,4 @@
-package jsbook.ch04;
+package jspbook.ch04;
 
 public class Calc {
 

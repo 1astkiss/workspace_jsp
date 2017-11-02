@@ -1,4 +1,4 @@
-package jsbook.ch04;
+package jspbook.ch04;
 
 import java.io.IOException;
 import java.io.PrintWriter;

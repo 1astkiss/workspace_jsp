@@ -1,4 +1,4 @@
-package jsbook.ch04;
+package jspbook.ch04;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -25,7 +25,7 @@ public class HelloWorldServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
 		out.println("<head><title>Hello World Servlet</title></head>");
-		out.println("<body><h2>Hello World Servlet : í—¬ë¡œì›”ë“œ</h2></body>");
+		out.println("<body><h2>Hello World Servlet : ?—¬ë¡œì›”?“œ</h2></body>");
 		out.println("</html>");
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
