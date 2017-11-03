@@ -15,6 +15,7 @@
 		<a href="addrbook_list.jsp"><h3>To Address List</h3></a>
 
 		<form name="form1" method="post" action="addrbook_control.jsp">
+		<input type="hidden" name="action" value="insert">
 			<table border="1">
 				<tr>
 					<th>Name</th>
