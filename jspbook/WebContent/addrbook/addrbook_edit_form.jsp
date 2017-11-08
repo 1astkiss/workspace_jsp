@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8" errorPage="addrbook_error.jsp"
-	import="jspbook.addrbook.*"%>
+	import="jspbook.addrbook.*" %>
 <jsp:useBean id="ab" scope="request" class="jspbook.addrbook.AddrBook" />
 <jsp:useBean id="gb" scope="page" class="jspbook.addrbook.AddrBean" />
 
@@ -28,7 +28,7 @@
 	<div align="center">
 		<h2>Edit address</h2>
 		<hr>
-		<a href="addrbook_list.jsp"><h3>To Address List</h3></a>
+		<a href="addrbook_control.jsp?action=list"><h3>To Address List</h3></a>
 
 		<form name="form1" method="post" action="addrbook_control.jsp">
 			<input type="hidden" name="ab_id" value="<%=ab.getAb_id()%>">
