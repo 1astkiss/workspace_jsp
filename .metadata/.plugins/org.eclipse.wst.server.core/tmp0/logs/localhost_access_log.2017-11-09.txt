@@ -54,3 +54,6 @@
 0:0:0:0:0:0:0:1 - - [09/Nov/2017:18:38:20 +0900] "POST /jspbook/ch06/request_result.jsp HTTP/1.1" 200 825
 0:0:0:0:0:0:0:1 - - [09/Nov/2017:18:39:23 +0900] "GET /jspbook/ch06/request_form.html HTTP/1.1" 200 1435
 0:0:0:0:0:0:0:1 - - [09/Nov/2017:18:39:28 +0900] "GET /jspbook/ch06/request_result.jsp?username=g&job=%EB%AC%B4%EC%A7%81&favorite=%EC%82%AC%ED%9A%8C HTTP/1.1" 200 818
+127.0.0.1 - - [09/Nov/2017:23:36:11 +0900] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:23:36:14 +0900] "GET /jspbook/ch06/request_form.html HTTP/1.1" 200 1436
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:23:36:20 +0900] "GET /favicon.ico HTTP/1.1" 404 1081
