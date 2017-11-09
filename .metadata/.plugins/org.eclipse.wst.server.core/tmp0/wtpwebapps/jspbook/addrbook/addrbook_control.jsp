@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8" errorPage="addrbook_error.jsp"
-	import="jspbook.addrbook.*, java.util.*"%>
+	import="jspbook.addrbook.*, java.util.*" %>
 <%
 	request.setCharacterEncoding("UTF-8");
 %>
@@ -15,8 +15,10 @@
 
 	switch (action) {
 	case "list":
-		response.sendRedirect("addrbook_list.jsp");
-		break;
+		request.setAttribute("datas", gb.getDBList());
+		pageContext.forward("addrbook_list.jsp");
+/* 		response.sendRedirect("addrbook_list.jsp");
+ */		break;
 	case "insert":
 		if (gb.insertDB(addrbook)) {
 			System.out.println("Address insered...");

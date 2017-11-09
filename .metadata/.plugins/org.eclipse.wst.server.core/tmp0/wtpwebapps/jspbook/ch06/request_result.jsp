@@ -41,7 +41,9 @@ for(String favorite:favorites){
 	Cookie cookie[] = request.getCookies();
 %>
 3. <%= cookie[0].getName() %>에 설정된 쿠키값 : <%= cookie[0].getValue() %><br>
-4. protocol : <%= request.getProtocol() %>
+4. protocol : <%= request.getProtocol() %> <br>
+5. url : <%= request.getRequestURL() %> <br>
+6. path : <%= request.getPathInfo() %> <br>
 </td></tr></table>
 </center>
 </body>

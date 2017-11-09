@@ -3,8 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <title>Request Form</title>
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script language=javascript>
 	document.cookie = "test=OK."
+	alert(document.cookie.length);
+	
+	$(document).ready(function(){
+		$('input[type="reset"]').click(function(event){
+			window.location.href = "http://www.naver.com";
+			event.preventDefault();
+		});
+	});
 </script>
 </head>
 
@@ -29,9 +38,9 @@
 				</tr>
 				<tr>
 					<td>관심분야</td>
-					<td><input type="checkbox" name="favorite" value="정치">정치</input>
-						<input type="checkbox" name="favorite" value="사회">사회</input> <input
-						type="checkbox" name="favorite" value="정보통신">정보통신</input></td>
+					<td><input type="checkbox" name="favorite" value="정치">정치
+						<input type="checkbox" name="favorite" value="사회">사회 <input
+						type="checkbox" name="favorite" value="정보통신">정보통신</td>
 				</tr>
 				<tr>
 					<td colspan="2" align="center"><input type="submit" value="확인">

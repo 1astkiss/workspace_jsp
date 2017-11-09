@@ -12,7 +12,7 @@
 	<div align="center">
 		<h2>Add a new address</h2>
 		<hr>
-		<a href="addrbook_list.jsp"><h3>To Address List</h3></a>
+		<a href="addrbook_control.jsp?action=list"><h3>To Address List</h3></a>
 
 		<form name="form1" method="post" action="addrbook_control.jsp">
 		<input type="hidden" name="action" value="insert">

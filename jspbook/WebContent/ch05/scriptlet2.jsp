@@ -5,6 +5,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>scriptlet2.jsp</title>
+<style>
+h1 {
+	background: yellow;
+}
+</style>
 </head>
 <body>
 <div align="center">
@@ -14,7 +19,7 @@
 	for(int i = 1; i <= 10; i++){
 %>
 
-<%= i %><br>
+<h1><%= i %></h1><br>
 
 <% } %>
 </div>
