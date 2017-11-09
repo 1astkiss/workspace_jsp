@@ -1,0 +1,6 @@
+package jspbook.addrbook;
+
+public class AddrBean {
+	Connection conn = null;
+
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Request Form</title>
+<script language=javascript>
+	document.cookie = "test=OK."
+</script>
+</head>
+
+<body>
+<center>
+<h2>request test form</h2>
+<hr>
+<form name=form1 method=post action=request_result.jsp>
+<table border=1 cellspacing=1 cellpadding=5>
+<tr>
+<td>이름</td>
+<td><input type=text size=10 name=username></td>
+<tr>
+<td>직업</td>
+<td>
+<select name=job></select>
+
+</table>
+</form>
+</center>
+</body>
+</html>

@@ -1,0 +1,9 @@
+127.0.0.1 - - [09/Nov/2017:12:36:08 +0900] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:36:08 +0900] "GET /jspbook/HelloWorldServlet_2 HTTP/1.1" 404 1097
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:36:38 +0900] "GET /jspbook/HelloWorldServlet_2 HTTP/1.1" 404 1097
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:39:21 +0900] "GET /jspbook/HelloWorldServlet_2 HTTP/1.1" 404 1097
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:40:01 +0900] "GET /jspbook/HelloWorldServlet_2 HTTP/1.1" 404 1097
+127.0.0.1 - - [09/Nov/2017:12:40:36 +0900] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:40:36 +0900] "GET /jspbook/HelloWorldServlet_2 HTTP/1.1" 200 113
+127.0.0.1 - - [09/Nov/2017:12:46:49 +0900] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:46:49 +0900] "GET /jspbook/HelloWorldServlet_2 HTTP/1.1" 200 132

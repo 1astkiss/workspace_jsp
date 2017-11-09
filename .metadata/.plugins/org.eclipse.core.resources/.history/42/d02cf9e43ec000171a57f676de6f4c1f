@@ -1,0 +1,9 @@
+package jspbook.addrbook;
+
+import com.mysql.jdbc.Connection;
+
+public class AddrBean {
+	Connection conn = null;
+	PreparedStatement pstmt = null;
+
+}
