@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8" errorPage="addrbook_error.jsp"
-	import="java.util.*, jspbook.addrbook.*"%>
+	import="java.util.*, jspbook.addrbook.*" %>
 <jsp:useBean id="datas" scope="request" class="java.util.ArrayList" />
-<jsp:useBean id="gb" scope="page" class="jspbook.addrbook.AddrBean" />
+<%-- <jsp:useBean id="gb" scope="page" class="jspbook.addrbook.AddrBean" /> --%>
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -37,8 +37,8 @@
 					<th>Memo</th>
 				</tr>
 				<%
-					datas = gb.getDBList();
-					for (AddrBook ab : (ArrayList<AddrBook>) datas) {
+/* 					datas = gb.getDBList();
+ */					for (AddrBook ab : (ArrayList<AddrBook>) datas) {
 				%>
 				<tr>
 					<td><a href="javascript:check(<%=ab.getAb_id()%>)"><%=ab.getAb_id()%></a></td>
