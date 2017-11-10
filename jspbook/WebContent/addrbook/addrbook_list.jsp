@@ -37,8 +37,7 @@
 					<th>Memo</th>
 				</tr>
 				<%
-/* 					datas = gb.getDBList();
- */					for (AddrBook ab : (ArrayList<AddrBook>) datas) {
+					for (AddrBook ab : (ArrayList<AddrBook>) datas) {
 				%>
 				<tr>
 					<td><a href="javascript:check(<%=ab.getAb_id()%>)"><%=ab.getAb_id()%></a></td>
@@ -51,31 +50,7 @@
 				<%
 					}
 				%>
-				<tr>
-					<!-- 				<tr>
-					<td><a href="addrbook_edit_form.jsp">1</a></td>
-					<td>홍길동</td>
-					<td>010-1234-1234</td>
-					<td>1995-10-02</td>
-					<td>aa대학교</td>
-					<td>IT</td>
-				</tr>
-				<tr>
-					<td><a href="addrbook_edit_form.jsp">1</a></td>
-					<td>홍길동</td>
-					<td>010-1234-1234</td>
-					<td>1995-10-02</td>
-					<td>aa대학교</td>
-					<td>IT</td>
-				</tr>
-				<tr>
-					<td><a href="addrbook_edit_form.jsp">1</a></td>
-					<td>홍길동</td>
-					<td>010-1234-1234</td>
-					<td>1995-10-02</td>
-					<td>aa대학교</td>
-					<td>IT</td>
-				</tr> -->
+				
 			</table>
 		</form>
 	</div>

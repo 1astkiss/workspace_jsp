@@ -17,8 +17,7 @@
 	case "list":
 		request.setAttribute("datas", gb.getDBList());
 		pageContext.forward("addrbook_list.jsp");
-/* 		response.sendRedirect("addrbook_list.jsp");
- */		break;
+		break;
 	case "insert":
 		if (gb.insertDB(addrbook)) {
 			System.out.println("Address insered...");
