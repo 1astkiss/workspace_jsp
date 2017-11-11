@@ -4690,5 +4690,10 @@
         <welcome-file>index.htm</welcome-file>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    
+    <resource-ref>
+    <res-ref-name>jdbc/mysql</res-ref-name>
+    <res-auth>Container</res-auth>
+    </resource-ref>
 
 </web-app>
