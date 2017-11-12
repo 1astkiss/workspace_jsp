@@ -35,7 +35,7 @@
 	<div align="center">
 		<h2>Event Registration</h2>
 		<hr>
-		<form name="form1" metho="post">
+		<form name="form1" method="post">
 			Name :
 			<input type="text" name="username">
 			Email :
