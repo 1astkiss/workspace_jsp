@@ -1,0 +1,1 @@
+RENAME TABLE Gods TO Goods;

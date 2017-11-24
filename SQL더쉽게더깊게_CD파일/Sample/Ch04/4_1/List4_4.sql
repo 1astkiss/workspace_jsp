@@ -1,0 +1,1 @@
+INSERT INTO GoodsIns (goods_id, goods_name, goods_classify, sell_price, buy_price, register_date) VALUES ('0006', '器农', '林规侩前', 500, NULL, '2009-09-20');

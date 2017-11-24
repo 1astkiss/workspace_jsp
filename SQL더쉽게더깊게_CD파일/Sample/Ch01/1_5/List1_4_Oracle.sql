@@ -1,0 +1,1 @@
+ALTER TABLE Goods ADD (goods_name_eng VARCHAR2(100));

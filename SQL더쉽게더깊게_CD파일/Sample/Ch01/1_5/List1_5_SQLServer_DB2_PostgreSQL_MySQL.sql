@@ -1,0 +1,1 @@
+ALTER TABLE Goods DROP COLUMN goods_name_eng;

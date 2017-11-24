@@ -31,5 +31,5 @@
     driverClassName = "com.mysql.jdbc.Driver"
     url="jdbc:mysql://127.0.0.1/jspdb"
     username="lastkiss" password="1234"
-    maxActive="5" maxIdle="3" masWait="-1" />
+    maxActive="5" maxIdle="3" maxWait="-1" />
 </Context>

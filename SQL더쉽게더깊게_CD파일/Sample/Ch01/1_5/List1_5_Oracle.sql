@@ -1,0 +1,1 @@
+ALTER TABLE Goods DROP (goods_name_eng);
